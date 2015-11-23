@@ -1,3 +1,3 @@
 # Math
 
-Here is a collection of Math.
+Here is a collection of Math.  
