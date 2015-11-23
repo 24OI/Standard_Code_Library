@@ -21,15 +21,15 @@ std::vector <int> genPrime(int upperBound) {
     int *prime = new int[upperBound+7];
     memset(isPrime, true, upperBound+7);
     memset(prime, 0, (upperBound+7)*4);
-    int cursor = 0;
+    int curpos = 0;
     for (int i = 2; i <= upperBound; ++i) {
-        if (isPrime[i])prime[cursor++] = i;
-        for (int j = 0; (j < cursor) && (i*prime[j] <= upperBound); ++j) {
+        if (isPrime[i])prime[curpos++] = i;
+        for (int j = 0; (j < curpos) && (i*prime[j] <= upperBound); ++j) {
             isPrime[i*prime[j]] = false;
             if (i%prime[j] == 0)break;
         }
     }
-    std::vector <int> vec_rtn(prime, prime+cursor);
+    std::vector <int> vec_rtn(prime, prime+curpos);
     return vec_rtn;
 }
 int n;
