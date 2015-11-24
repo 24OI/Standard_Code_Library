@@ -14,9 +14,7 @@
 struct node {
     int left, right, size, key;
     void init(int k) {
-        key = k;
-        size = 1;
-        left = right = 0;
+        key = k; size = 1; left = right = 0;
     }
 }tree[1000011];
 
