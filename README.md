@@ -31,3 +31,7 @@ Yours are always welcome.
 ## Contributors?
 
 :+1: See [Contributors Page](https://github.com/24OI/Standard_Code_Library/graphs/contributors) collected by Github.
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/24OI/standard_code_library/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
